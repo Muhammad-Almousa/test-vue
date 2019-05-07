@@ -24,13 +24,3 @@ export default {
   }
 };
 </script>
-<style lang="scss">
-a {
-  text-decoration: none;
-}
-.btn {
-  padding: 12px 20px;
-  background: #00afab;
-  color: #fff;
-}
-</style>

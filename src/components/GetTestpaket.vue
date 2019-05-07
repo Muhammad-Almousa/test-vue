@@ -38,10 +38,8 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-$breakpoint-xs: 575.98px;
 $breakpoint-md: 767.98px;
-$breakpoint-l: 1024px;
-$breakpoint-xl: 1199.98px;
+
 section {
   min-width: 350px;
 

@@ -29,10 +29,13 @@
   margin: 0;
   padding: 0;
 }
-$breakpoint-xs: 575.98px;
-$breakpoint-md: 767.98px;
-$breakpoint-l: 1024px;
-$breakpoint-xl: 1199.98px;
+
+// Break-points
+// $breakpoint-xs: 575.98px;
+// $breakpoint-md: 767.98px;
+// $breakpoint-l: 1024px;
+// $breakpoint-xl: 1199.98px;
+
 #app {
   font-family: "cera_regular";
   color: #2c3e50;
@@ -54,6 +57,7 @@ h1 {
   font-weight: 300;
   color: #000;
 }
+
 h2 {
   margin: 15px auto 30px auto;
   font-family: cera_medium, Arial, Helvetica, sans-serif;
@@ -62,6 +66,7 @@ h2 {
   font-weight: normal;
   color: #000;
 }
+
 h3 {
   margin: 15px auto;
   font-family: cera_medium, Arial, Helvetica, sans-serif;
@@ -70,6 +75,7 @@ h3 {
   font-weight: 300;
   color: #000;
 }
+
 section {
   display: flex;
   flex-flow: row wrap;
@@ -78,6 +84,7 @@ section {
   min-height: 450px;
   padding: 2vw 0;
 }
+
 .row {
   display: flex;
   flex-flow: row;
@@ -87,5 +94,15 @@ section {
   max-width: 1280px;
   margin: 0 auto;
   padding: 3vw 2vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 12px 20px;
+  background: #00afab;
+  color: #fff;
 }
 </style>
