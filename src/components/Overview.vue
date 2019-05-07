@@ -21,7 +21,6 @@ export default {
 $breakpoint-xs: 575.98px;
 $breakpoint-sm: 767.98px;
 $breakpoint-md: 991.98px;
-$breakpoint-l: 1024px;
 $breakpoint-xl: 1199.98px;
 
 section {
@@ -44,6 +43,7 @@ section {
       width: 50%;
     }
   }
+
   .btn {
     display: inline-block;
     margin-top: 35px;
@@ -54,12 +54,14 @@ section {
     text-transform: uppercase;
     color: #fff;
   }
+
   @media (max-width: $breakpoint-xl) {
     img {
       top: 10%;
       right: 0;
     }
   }
+
   @media (max-width: $breakpoint-md) {
     min-height: 600px;
     align-items: flex-start;
@@ -72,6 +74,7 @@ section {
       top: 50%;
       right: 0;
     }
+
     .row {
       width: 100%;
       padding: 6vw 2vw;
