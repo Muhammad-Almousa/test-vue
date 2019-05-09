@@ -38,7 +38,10 @@
             Automatischer Übergang ins jederzeit kündbare Windel-Abo für 49,50 €
             pro Lieferung.
           </li>
-          <li>Preise inkl. MwSt., ggf. zzgl. <a href="#">Versandkosten</a></li>
+          <li>
+            Preise inkl. MwSt., ggf. zzgl.
+            <a href="#">Versandkosten</a>
+          </li>
         </ul>
         <a href="#" class="btn">In den Warenkorb legen</a>
       </div>
@@ -97,7 +100,6 @@ export default {
 $breakpoint-xs: 575.98px;
 $breakpoint-sm: 767.98px;
 $breakpoint-md: 991.98px;
-$breakpoint-l: 1024px;
 $breakpoint-xl: 1199.98px;
 section {
   padding: 0;
@@ -109,9 +111,28 @@ section {
 
     img.top-left {
       position: absolute;
-      top: 20%;
-      max-width: 150px;
+      top: 15%;
+      left: 0;
+      max-width: 170px;
       z-index: 2;
+
+      @media (min-width: $breakpoint-xl) {
+        left: 5%;
+      }
+      @media (max-width: $breakpoint-md) {
+        top: 8%;
+        left: 5%;
+        max-width: 120px;
+      }
+      @media (max-width: $breakpoint-sm) {
+        top: 8%;
+        left: 5%;
+        max-width: 120px;
+      }
+      @media (max-width: $breakpoint-xs) {
+        top: 8%;
+        max-width: 100px;
+      }
     }
 
     .col-left {
@@ -170,6 +191,9 @@ section {
             color: #fff;
           }
         }
+        @media (min-width: $breakpoint-xl) {
+          flex-wrap: nowrap;
+        }
       }
       p {
         margin-bottom: 30px;
@@ -197,6 +221,9 @@ section {
     }
   }
   @media (max-width: $breakpoint-md) {
+    img.top-left {
+      top: 0;
+    }
     .row {
       width: 100%;
       padding-left: 4vw;
@@ -221,14 +248,6 @@ section {
             width: 25%;
           }
         }
-      }
-    }
-  }
-  @media (max-width: $breakpoint-xs) {
-    .row {
-      img.top-left {
-        top: 8%;
-        max-width: 100px;
       }
     }
   }

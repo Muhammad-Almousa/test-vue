@@ -32,10 +32,10 @@ section {
 
   img {
     position: absolute;
-    top: 10%;
-    right: 10%;
+    top: 15%;
+    right: 4%;
     bottom: 0;
-    max-width: 150px;
+    max-width: 170px;
   }
 
   .row {
@@ -53,6 +53,9 @@ section {
     font-size: 1.1rem;
     text-transform: uppercase;
     color: #fff;
+  }
+  @media (min-width: $breakpoint-xl) {
+    min-height: 550px;
   }
 
   @media (max-width: $breakpoint-xl) {
