@@ -39,10 +39,8 @@ export default {
 </script>
 <style lang="scss" scoped>
 $breakpoint-md: 767.98px;
-
+$breakpoint-xs: 575.98px;
 section {
-  min-width: 350px;
-
   h2 {
     width: 100%;
     text-align: center;
@@ -60,10 +58,12 @@ section {
 
       .img-wrapper {
         width: 25%;
-        margin-right: 20px;
 
         img {
           max-width: 100%;
+        }
+        @media (max-width: $breakpoint-xs) {
+          width: 50%;
         }
       }
 
@@ -100,6 +100,10 @@ section {
 
         img {
           max-width: 100%;
+        }
+
+        @media (max-width: $breakpoint-xs) {
+          width: 50%;
         }
       }
 

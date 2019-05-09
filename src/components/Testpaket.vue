@@ -40,7 +40,9 @@
           </li>
           <li>
             Preise inkl. MwSt., ggf. zzgl.
-            <a href="#">Versandkosten</a>
+            <a href="https://www.lillydoo.com/de/zahlung-und-versand"
+              >Versandkosten</a
+            >
           </li>
         </ul>
         <a href="#" class="btn">In den Warenkorb legen</a>
